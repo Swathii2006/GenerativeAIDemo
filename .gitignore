@@ -1,12 +1,6 @@
-# Ignore compiled files
 *.class
-
-# Ignore system files
+*.log
 .DS_Store
-
-# Ignore IDE settings
-.vscode/
-.idea/
-
-# Ignore API keys
+/out/
+/bin/
 apikey.txt
