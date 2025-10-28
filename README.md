@@ -1,18 +1,15 @@
-# 🧠 Generative AI and Its Impact on Creativity and Work
+# Generative AI Java Project
 
-A Java project demonstrating the use of Generative AI to produce creative text outputs using OpenAI's API.
+A Java project that connects to OpenAI API to generate creative text.
 
-## 🚀 Features
-- Connects Java to OpenAI's GPT API.
-- Generates creative text based on user prompts.
-- Demonstrates real-world application of AI in creativity.
+## Requirements
+- Java 8+
+- JSON library (json-20231013.jar)
+- OpenAI API Key
 
-## 🧩 Requirements
-- Java 8 or above
-- OpenAI API key
-- JSON library (`org.json`)
-
-## 🛠️ How to Run
-1. Clone the repository:
+## How to Run
+1. Add your API key in `apikey.txt`.
+2. Compile and run:
    ```bash
-   git clone https://github.com/your-username/GenerativeAIProject.git
+   javac -cp ".;lib/json-20231013.jar" src/GenerativeAIDemo.java
+   java -cp ".;lib/json-20231013.jar;src" GenerativeAIDemo
